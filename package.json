@@ -1,0 +1,36 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --base=/isit/",
+    "serve": "vite preview",
+    "lint": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/css": "^0.13.0",
+    "@eslint/js": "^9.38.0",
+    "@eslint/markdown": "^7.4.0",
+    "eslint": "^9.38.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-github": "^6.0.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-solid": "^0.14.5",
+    "globals": "^16.4.0",
+    "jiti": "^2.6.1",
+    "solid-devtools": "^0.34.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.46.1",
+    "vite": "^7.1.4",
+    "vite-plugin-solid": "^2.11.8"
+  },
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.22.0",
+    "solid-js": "^1.9.5"
+  }
+}
