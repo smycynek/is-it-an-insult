@@ -1,18 +1,23 @@
-## Is it an insult
+# Is it an insult
+
+Version 0.1.1
+
+Copyright 2025 Steven Mycynek
+
+## Basics
+
+This is just a fun, silly demo to try out SolidJS as well as some pre-made TensorFlow models.
+
+## Installation
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm install 
+npm run build
+npm run dev
+
+# http://localhost:3000/isit
 ```
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm run dev` or `npm start`
-## `npm run lint`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000/isit](http://localhost:3000/iit) to view it in the browser.
-
-### `npm run build`
 
 ## Live Demo [https://stevenvictor.net/isit](https://stevenvictor.net/isit)
