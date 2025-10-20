@@ -49,6 +49,9 @@ const App: Component = () => {
     theModel = model;
     setRunning(false);
     setButtonText('Find out');
+  }).catch (() => {
+    setRunning(true);
+    setOutput('Model cannot be loaded.');
   });
   const runModel = () => {
     setButtonText('Processing...');
