@@ -7,13 +7,13 @@ import * as toxicity from '@tensorflow-models/toxicity';
 const App: Component = () => {
   const okayMessages = [
     'Hard to say, probably okay.',
-    "I don't know, whatever.",
+    'I don\'t know, whatever.',
     'Your guess is as good as mine, probably fine.',
     'My friend said this to me once, so likely all good.',
-    "I read this in Forbes, so it's fine.",
+    'I read this in Forbes, so it\'s fine.',
   ];
 
-  const warningMesages = [
+  const warningMessages = [
     'Nastiness detected',
     'That might be bad',
     'Filth',
@@ -36,7 +36,7 @@ const App: Component = () => {
   };
 
   const getWarningMessage = () => {
-    return getMessage(warningMesages);
+    return getMessage(warningMessages);
   };
 
   const getMessage = (dataSource: string[]) => {
